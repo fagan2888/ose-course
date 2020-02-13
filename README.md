@@ -24,4 +24,4 @@ We maintain a Python package that helps to build high-quality and user friendly 
 
 ## Iterations
 
-* Goethe University Frankfurt, see [here]() for details.
+* Goethe University Frankfurt, see [here](https://github.com/OpenSourceEconomics/ose-course/blob/master/iterations/goethe-university-frankfurt/README.md) for details.
