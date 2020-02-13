@@ -1,13 +1,21 @@
-# OSE course
+# OpenSourceEconomics course
 
 We teach basic software engineering, numerical methods, and computational engineering skills. They allow you to leverage tools from computational science and increase the transparency and extensibility of our implementations. In doing so, you expand the set of possible economic questions that you can address and improve the quality of your answers.
+
+We organize the course around the two flagship codes of our group: `respy` and `estimagic`. After a brief introduction of the class and our initiative, we use two codes to explore selected issues in software engineering, numerical methods, and computational engineering:
+
+#### `respy`
+
+  We maintain a Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on Keane & Wolpin (1997). Additional information about the project is available in our [online documentation](https://respy.readthedocs.io).
+
+#### `estimagic`
+
+We maintain a Python package that helps to build high-quality and user-friendly implementations of (structural) econometric models. `estimagic` provides a consistent interface to a large set of global and local optimizers. All optimizers can handle linear equality and inequality constraints, as well as many other types of constraints. Complicated optimizations can be monitored using an interactive browser-based dashboard. Moreover, `estimagic` provides functions for numerical differentiation and inference for maximum likelihood and method of simulated moments estimation. More details can be found in the [online documentation](https://estimagic.readthedocs.io).
 
 Throughout the course, we will make heavy use of [Python](https://www.python.org) and its [SciPy ecosystem](https://www.scipy.org) and [Jupyter Notebooks](https://jupyter.org). Basic knowledge of this toolchain is a prerequisite. There exist numerous introductory resources, and we provide a curated list [here](https://github.com/HumanCapitalAnalysis/general-resources).
 We will use [Zulip](https://zulipchat.com/) for all course communications. Above all, we will post a host of supplementary material there. Please be sure to [join](https://ose.zulipchat.com/join/dw3ysawvg0dg3c92uwkf68c6) our workspace.
 
 ## Outline
-
-We organize the course around the two flagship codes of our group: `respy` and `estimagic`. After a brief introduction of the class and our initiative, we use two codes to explore selected issues in software engineering, numerical methods, and computational engineering:
 
 - **Introduction** We provide a general introduction to computational modeling in economics and our `OpenSourceEconomics` initiative. We outline opportunities for students to get involved.
 
@@ -26,16 +34,6 @@ We then discuss the limitations of `scipy.optimize` in typical econometric workf
 
 - **Execution speed** `Python` is often called a slow language.
 Nevertheless, it is one of the most widely used languages for high-performance computing. We teach students how to make their `Python` code fast with `numpy` and `numba` and how to parallelize it using `multiprocessing` and `joblib`. After the students solve simple examples, we look at some implementations is `respy`.
-
-## Software packages
-
-### `respy`
-
-We maintain a Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on Keane & Wolpin (1997). Additional information about the project is available in our [online documentation](https://respy.readthedocs.io).
-
-### `estimagic`
-
-We maintain a Python package that helps to build high-quality and user-friendly implementations of (structural) econometric models. `estimagic` provides a consistent interface to a large set of global and local optimizers. All optimizers can handle linear equality and inequality constraints, as well as many other types of constraints. Complicated optimizations can be monitored using an interactive browser-based dashboard. Moreover, `estimagic` provides functions for numerical differentiation and inference for maximum likelihood and method of simulated moments estimation. More details can be found in the [online documentation](https://estimagic.readthedocs.io).
 
 ## Iterations
 
