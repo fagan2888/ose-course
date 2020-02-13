@@ -8,7 +8,6 @@ We organize the course around the two flagship codes of our group. We use two co
 
   We maintain a Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on Keane & Wolpin (1997). Additional information about the project is available in our [online documentation](https://respy.readthedocs.io).
 
-
 * `estimagic`
 
   We maintain a Python package that helps to build high-quality and user-friendly implementations of (structural) econometric models. `estimagic` provides a consistent interface to a large set of global and local optimizers. All optimizers can handle linear equality and inequality constraints, as well as many other types of constraints. Complicated optimizations can be monitored using an interactive browser-based dashboard. Moreover, `estimagic` provides functions for numerical differentiation and inference for maximum likelihood and method of simulated moments estimation. More details can be found in the [online documentation](https://estimagic.readthedocs.io).
@@ -39,3 +38,11 @@ Nevertheless, it is one of the most widely used languages for high-performance c
 ## Iterations
 
 * Goethe University Frankfurt, see [here](https://github.com/OpenSourceEconomics/ose-course/blob/master/iterations/goethe-university-frankfurt/README.md) for details.
+
+## References
+
+* Keane, M. P., & Wolpin, K. I. (1997). [The career decisions of young men.](https://www.journals.uchicago.edu/doi/abs/10.1086/262080) *Journal of Political Economy, 105*(3), 473–522.
+
+* respy (2018). *respy: A Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model.* Retrieved from http://doi.org/10.5281/zenodo.1189209
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](HumanCapitalAnalysis/student-project-template/blob/master/LICENSE)
