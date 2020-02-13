@@ -8,7 +8,7 @@ We will use [Zulip](https://zulipchat.com/) for all communications. This include
 
 ## Basic outline
 
-We organize the course around the two flagship codes of our group. After a brief introduction to the class and our initiative, we use two of our flagship codes to explore selected issues in software engineering, numerical methods, and computational engineering.
+We organize the course around the two flagship codes of our group: `respy` and `estimagic`. After a brief introduction of the class and our initiative, we use two codes to explore selected issues in software engineering, numerical methods, and computational engineering.
 
 ### Introduction
 
