@@ -10,9 +10,9 @@ We will use [Zulip](https://zulipchat.com/) for all communications. This include
 
 We organize the course around the two flagship codes of our group. After a brief introduction to the class and our initiative, we use two of our flagship codes to explore selected issues in software engineering, numerical methods, and computational engineering.
 
-### Introduction to OpenSourceEconomics
+### Introduction
 
-We provide a general introduction to computational modeling in economics and the `OpenSourceEconomics` initiative. We outline opportunities for students to get involved.
+We provide a general introduction to computational modeling in economics and our `OpenSourceEconomics` initiative. We outline opportunities for students to get involved.
 
 ### `respy`
 
