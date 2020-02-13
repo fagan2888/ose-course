@@ -2,7 +2,7 @@
 
 We teach basic software engineering, numerical methods, and computational engineering skills. They allow you to leverage tools from computational science and increase the transparency and extensibility of our implementations. In doing so, you expand the set of possible economic questions that you can address and improve the quality of your answers.
 
-We organize the course around the two flagship codes of our group. We use two codes to explore selected issues in software engineering, numerical methods, and computational engineering:
+We organize the course around the two flagship codes of our group. We use two codes to explore selected issues in software engineering, numerical methods, and computational engineering.
 
 * `respy`
 
