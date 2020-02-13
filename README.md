@@ -16,7 +16,7 @@ We provide a general introduction to computational modeling in economics and our
 
 ### `respy`
 
-We maintain a Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on Keane & Wolpin (1997). We first outline an overview on underlying economic, mathematical, and computational model. We then provide an overview on its applications in economics. Finally, we `respy` to discuss selected issues such as numerical integration, parallelization strategies, version control, software testing, and continuous integration. Additional information about the project is available in our [online documentation](https://respy.readthedocs.io).
+We maintain a Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on Keane & Wolpin (1997). We first outline an overview on underlying economic, mathematical, and computational model. We then provide an overview on its applications in economics. Finally, we use `respy` to discuss selected issues such as numerical integration, parallelization strategies, version control, software testing, and continuous integration. Additional information about the project is available in our [online documentation](https://respy.readthedocs.io).
 
 ### `estimagic`
 
