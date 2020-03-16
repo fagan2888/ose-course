@@ -8,4 +8,4 @@ We provide an exemplary syllabus [here](https://github.com/OpenSourceEconomics/o
 
 * Goethe University Frankfurt, see [here](https://github.com/OpenSourceEconomics/ose-course/blob/master/iterations/goethe-university-frankfurt/README.md) for details.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](HumanCapitalAnalysis/student-project-template/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/OpenSourceEconomics/ose-course.svg?branch=master)](https://travis-ci.org/OpenSourceEconomics/ose-course) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](HumanCapitalAnalysis/student-project-template/blob/master/LICENSE) 
