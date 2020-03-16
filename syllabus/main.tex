@@ -14,15 +14,24 @@
 
 \item \verb+respy+
 
-We maintain a Python package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on \citep{Keane.1997}. Additional information about the project is available in our online documentation at \url{respy.readthedocs.org}.
+We maintain a \verb+Python+ package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on \citet{Keane.1997}.\vspace{0.3cm}
+
+\begin{tabular}{ll}
+\textbf{GitHub}		& \url{OpenSourceEconomics/respy}\\
+\textbf{Docs}     & \url{respy.readthedocs.org}
+\end{tabular}\vspace{0.3cm}
 
 \item \verb+estimagic+
 
-We maintain a Python package that helps to build high-quality and user-friendly implementations of (structural) econometric models. \verb+estimagic+ provides a consistent interface to a large set of global and local optimizers. All optimizers can handle linear equality and inequality constraints, as well as many other types of constraints. Complicated optimizations can be monitored using an interactive browser-based dashboard. Moreover, \verb+estimagic+ provides functions for numerical differentiation and inference for maximum likelihood and method of simulated moments estimation. More details can be found in the online documentation.
+We maintain a \verb+Python+ package that helps to build high-quality and user-friendly implementations of (structural) econometric models. \verb+estimagic+ provides a consistent interface to a large set of global and local optimizers. Complicated optimizations can be monitored using an interactive browser-based dashboard.\vspace{0.3cm}
 
+\begin{tabular}{ll}
+\textbf{GitHub}		& \url{OpenSourceEconomics/estimagic}\\
+\textbf{Docs}     & \url{estimagic.readthedocs.org}
+\end{tabular}\vspace{0.3cm}
 \end{itemize}
 
-\noindent Throughout the course, we will make heavy use of Python and its SciPy ecosystem and Jupyter Notebooks. Basic knowledge of this toolchain is a prerequisite. There exist numerous introductory resources, and we provide a curated list here. We will use Zulip for all course communications. Above all, we will post a host of supplementary material there. Please be sure to join our workspace.
+\noindent Throughout the course, we will make heavy use of \verb+Python+ and its \verb+SciPy+ ecosystem and \verb+Jupyter+ Notebooks. Basic knowledge of this toolchain is a prerequisite. There exist numerous introductory resources, and we provide a curated list at \url{ose-resources.readthedocs.io}. We will use \verb+zulip+ for all course communications, please be sure to join our workspace at \url{ose.zulipchat.com}.
 
 \begin{itemize}
 
@@ -36,11 +45,11 @@ We discuss different types of automated tests and how they can be applied to sci
 
 \item \textbf{Collaboration}
 
-Collaboration We introduce continuous integration features of GitHub and discuss workflows for different team sizes.
+We introduce continuous integration features of \verb+GitHub+ and discuss workflows for different team sizes.
 
 \item \textbf{Numerical optimization}
 
-After a brief theoretical introduction to local and global optimization, students will solve straightforward optimization problems with scipy. We then discuss the limitations of scipy.optimize in typical econometric workflows and introduce the students to the powerful optimization tools of the estimagic package.
+After a brief theoretical introduction to local and global optimization, students will solve straightforward optimization problems with \verb+scipy+. We then discuss the limitations of scipy.optimize in typical econometric workflows and introduce the students to the powerful optimization tools of the \verb+estimagic+ package.
 
 \item \textbf{Numerical derivatives}
 
@@ -52,15 +61,15 @@ We first introduce the participants to quadrature, Monte-Carlo, and Quasi-Monte-
 
 \item \textbf{Discrete choice dynamic programming models}
 
-We first outline the underlying economic, mathematical, and computational model. We then provide an overview of its applications in economics. Finally, we use respy to showcase the application of earlier lessons for numerical integration, parallelization strategies, version control, software testing, and continuous integration.
+We first outline the underlying economic, mathematical, and computational model. We then provide an overview of its applications in economics. Finally, we use \verb+respy+ to showcase the application of earlier lessons for numerical integration, parallelization strategies, version control, software testing, and continuous integration.
 
 \item \textbf{Execution speed}
 
-Execution speed Python is often called a slow language. Nevertheless, it is one of the most widely used languages for high-performance computing. We teach students how to make their Python code fast with numpy and numba and how to parallelize it using multiprocessing and joblib. After the students solve simple examples, we look at some implementations is respy.
+Execution speed \verb+Python+ is often called a slow language. Nevertheless, it is one of the most widely used languages for high-performance computing. We teach students how to make their \verb+Python+ code fast with \verb+numpy+ and \verb+numba+ and how to parallelize it using \verb+multiprocessing+ and \verb+joblib+. After the students solve simple examples, we look at some implementations is \verb+respy+.
 
 \end{itemize}
 
-\clearpage\bibliography{../submodules/bibliography/literature}
+\bibliography{../submodules/bibliography/literature}
 \bibliographystyle{apalike}
 
 \nocite{Gabler.2019}
