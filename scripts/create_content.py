@@ -24,7 +24,9 @@ if __name__ == '__main__':
 
     parser.add_argument('-s', '--syllabus', action='store_true', help='compile syllabus')
 
+    parser.add_argument('-a', '--all', action='store_true', help='compile all')
+
     args = parser.parse_args()
 
-    if args.syllabus:
+    if args.syllabus or args.all:
         compile_latex_document(ROOT + '/syllabus')

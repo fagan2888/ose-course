@@ -4,4 +4,8 @@ We teach basic software engineering, numerical methods, and computational engine
 
 We provide an exemplary syllabus [here](https://github.com/OpenSourceEconomics/ose-course/blob/master/course-syllabus.pdf).
 
+## Iterations
+
+* Goethe University Frankfurt, see [here](https://github.com/OpenSourceEconomics/ose-course/blob/master/iterations/goethe-university-frankfurt/README.md) for details.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](HumanCapitalAnalysis/student-project-template/blob/master/LICENSE)
