@@ -2,6 +2,7 @@
 """This script compiles the content of the course."""
 import subprocess as sp
 import argparse
+import shutil
 import os
 
 ROOT = os.environ['COURSE_ROOT']
@@ -26,7 +27,12 @@ if __name__ == '__main__':
 
     parser.add_argument('-a', '--all', action='store_true', help='compile all')
 
+    parser.add_argument('-u', '--update', action='store_true', help='update')
+
     args = parser.parse_args()
 
     if args.syllabus or args.all:
         compile_latex_document(ROOT + '/syllabus')
+
+    if args.update or args.all:
+        shutil.copy("syllabus/main.pdf", "course-syllabus.pdf")
