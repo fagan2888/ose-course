@@ -39,13 +39,17 @@ We maintain a \verb+Python+ package that helps to build high-quality and user-fr
 
 We provide a general introduction to computational modeling in economics and our OpenSourceEconomics initiative. We outline opportunities for students to get involved.
 
+\begin{itemize}
+  \item add citation to OSE website here.
+\end{itemize}
+
 \item \textbf{Testing}
 
 We discuss different types of automated tests and how they can be applied to scientific software projects. After presenting the basics, we show some examples in \verb+estimagic+ and \verb+respy+.
 
 \begin{itemize}
+  \item \bibentry{Okken.2017}
   \item \bibentry{Arbuckle.2010}
-  \item \bibentry{Bilschak.2016}
 \end{itemize}
 
 
@@ -63,14 +67,20 @@ We introduce continuous integration features of \verb+GitHub+ and discuss workfl
 After a brief theoretical introduction to local and global optimization, students will solve straightforward optimization problems with \verb+scipy+. We then discuss the limitations of \verb+scipy.optimize+ in typical econometric workflows and introduce the students to the powerful optimization tools of the \verb+estimagic+ package.
 
 \begin{itemize}
-  \item \bibentry{Gabler.2019}
   \item \bibentry{Locatelli.2013}
   \item \bibentry{Nocedal.2006}
+  \item \bibentry{Gabler.2019}
 \end{itemize}
 
 \item \textbf{Numerical derivatives}
 
 After a brief introduction to numerical differentiation, we show how to calculate gradients, Jacobian and Hessian matrices using estimagic.
+
+\begin{itemize}
+  \item \bibentry{Brodtkorb.2019}
+  \item \bibentry{Ridout.2009}
+  \item \bibentry{Gabler.2019}
+\end{itemize}
 
 \item \textbf{Numerical integration}
 
@@ -96,11 +106,17 @@ We first outline the underlying economic, mathematical, and computational model.
 
 Execution speed \verb+Python+ is often called a slow language. Nevertheless, it is one of the most widely used languages for high-performance computing. We teach students how to make their \verb+Python+ code fast with \verb+numpy+ and \verb+numba+ and how to parallelize it using \verb+multiprocessing+ and \verb+joblib+. After the students solve simple examples, we look at some implementations is \verb+respy+.
 
+
+\begin{itemize}
+\item \bibentry{Gorelick.2014}
+\item \bibentry{Lanaro.2017}
 \end{itemize}
 
-\bibliography{../submodules/bibliography/literature}
-\bibliographystyle{apalike}
 
-\nocite{Gabler.2019}
+\end{itemize}
+
+
+\bibliographystyle{apalike}
+\nobibliography{../submodules/bibliography/literature}
 
 \end{document}
