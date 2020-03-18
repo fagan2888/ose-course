@@ -9,7 +9,7 @@
 
 \input{files/titlepage}
 
-\noindent We organize the course around the two flagship codes of our group. We use two codes to explore selected issues in software engineering, numerical methods, and computational engineering.
+\noindent We organize the course around the two flagship codes of our group. We use them to explore selected issues in software engineering, numerical methods, and computational engineering.
 
 \begin{itemize}
 
@@ -18,21 +18,21 @@
 We maintain a \verb+Python+ package for the simulation and estimation of a prototypical finite-horizon dynamic discrete choice model based on \citet{Keane.1997}.\vspace{0.3cm}
 
 \begin{tabular}{ll}
-\textbf{GitHub}		& \url{OpenSourceEconomics/respy}\\
+\textbf{GitHub}        & \url{OpenSourceEconomics/respy}\\
 \textbf{Docs}     & \url{respy.readthedocs.org}
 \end{tabular}\vspace{0.3cm}
 
 \item \verb+estimagic+
 
-We maintain a \verb+Python+ package that helps to build high-quality and user-friendly implementations of (structural) econometric models. \verb+estimagic+ provides a consistent interface to a large set of global and local optimizers. Complicated optimizations can be monitored using an interactive browser-based dashboard.\vspace{0.3cm}
+We maintain a \verb+Python+ package that helps to estimate (structural) econometric models. \verb+estimagic+ provides a consistent interface to a broad set of global and local optimizers. An interactive browser-based dashboard  allows to monitor complicated optimizations.\vspace{0.3cm}
 
 \begin{tabular}{ll}
-\textbf{GitHub}		& \url{OpenSourceEconomics/estimagic}\\
+\textbf{GitHub}        & \url{OpenSourceEconomics/estimagic}\\
 \textbf{Docs}     & \url{estimagic.readthedocs.org}
 \end{tabular}\vspace{0.3cm}
 \end{itemize}
 
-\noindent Throughout the course, we will make heavy use of \verb+Python+ and its \verb+SciPy+ ecosystem and \verb+Jupyter+ Notebooks. Basic knowledge of this toolchain is a prerequisite. There exist numerous introductory resources, and we provide a curated list at \url{ose-resources.readthedocs.io}. We will use \verb+zulip+ for all course communications, please be sure to join our workspace at \url{ose.zulipchat.com}.
+\noindent Throughout the course, we will make heavy use of \verb+Python+ and its \verb+SciPy+ ecosystem and \verb+Jupyter Notebooks+. Basic knowledge of this toolchain is a prerequisite. There exist numerous introductory resources, and we provide a curated list at \url{ose-resources.readthedocs.io}. We will use \verb+zulip+ for all course communications. Please be sure to join our workspace at \url{ose.zulipchat.com}.
 
 \begin{itemize}
 
@@ -46,7 +46,7 @@ We provide a general introduction to computational modeling in economics and our
 
 \item \textbf{Testing}
 
-We discuss different types of automated tests and how they can be applied to scientific software projects. After presenting the basics, we show some examples in \verb+estimagic+ and \verb+respy+.
+We discuss different types of automated tests and how we can apply them to scientific software projects. After presenting the basics, we show some examples in \verb+estimagic+ and \verb+respy+.
 
 \begin{itemize}
   \item \bibentry{Okken.2017}
@@ -75,7 +75,7 @@ After a brief theoretical introduction to local and global optimization, student
 
 \item \textbf{Numerical derivatives}
 
-After a brief introduction to numerical differentiation, we show how to calculate gradients, Jacobian and Hessian matrices using estimagic.
+After a brief introduction to numerical differentiation, we show how to calculate gradients, Jacobian, and Hessian matrices using \verb+estimagic+.
 
 \begin{itemize}
   \item \bibentry{Brodtkorb.2019}
@@ -85,7 +85,7 @@ After a brief introduction to numerical differentiation, we show how to calculat
 
 \item \textbf{Numerical integration}
 
-We first introduce the participants to quadrature, Monte-Carlo, and Quasi-Monte-Carlo methods and provide them with (over)simplified guidelines to choose between the different methods. We then show the convergence speed of different approaches in a discrete choice dynamic programming model.
+We first introduce the participants to quadrature, Monte-Carlo, and Quasi-Monte-Carlo methods and provide them with (over)simplified guidelines to choose between the different techniques. We then show the convergence speed of different approaches in a discrete choice dynamic programming model.
 
 \begin{itemize}
   \item \bibentry{Davis.2007}
@@ -107,15 +107,12 @@ We first outline the underlying economic, mathematical, and computational model.
 
 Execution speed \verb+Python+ is often called a slow language. Nevertheless, it is one of the most widely used languages for high-performance computing. We teach students how to make their \verb+Python+ code fast with \verb+numpy+ and \verb+numba+ and how to parallelize it using \verb+multiprocessing+ and \verb+joblib+. After the students solve simple examples, we look at some implementations is \verb+respy+.
 
-
 \begin{itemize}
 \item \bibentry{Gorelick.2014}
 \item \bibentry{Lanaro.2017}
 \end{itemize}
 
-
 \end{itemize}
-
 
 \bibliographystyle{apalike}
 \nobibliography{../submodules/bibliography/literature}
